@@ -1,7 +1,12 @@
-*/
-	int main(void)
-{
-		puts("\"Programming is like building a multilingual puzzle");
+/**
+ *main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
-return (0);
+int main(void)
+	{
+		print("\"Programming is like building a multilingual puzzle");
+		return (0);
+
 }
