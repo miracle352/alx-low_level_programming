@@ -9,20 +9,31 @@
  */
 
 
-
 int main(void)
 
 {
 
-	int n = 122;
+	int n = 48;
 
-	while (n > 96)
+	int l = 'a';
+
+	while (n <= 57)
 
 	{
 
 		putchar(n);
 
-		n -= 1;
+		n += 1;
+
+	}
+
+	while (l <= 'f')
+
+	{
+
+		putchar(l);
+
+		l++;
 
 	}
 
