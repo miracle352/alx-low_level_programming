@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#include <ctype.h>
-
 
 
 /**
@@ -16,15 +14,29 @@ int main(void)
 
 {
 
-	int l = 'a';
+	int lw = 'a';
 
-	while (l <= 'z')
+	while (lw <= 'z')
 
 	{
 
-		putchar(l);
+		if (lw == 'e' || lw == 'q')
 
-		l += 1;
+		{
+
+			lw += 1;
+
+		}
+
+		else
+
+		{
+
+			putchar(lw);
+
+			lw += 1;
+
+		}
 
 	}
 
