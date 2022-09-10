@@ -14,7 +14,7 @@ int main(void)
 
 	int n;
 
-	while (n <= 10)
+	while (n < 10)
 
 	{
 
