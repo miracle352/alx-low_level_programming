@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  *main - program that prints putchar.
  *
@@ -14,9 +13,9 @@ int main(void)
 
 	while (n < 9)
 	{
-		putchar(str_hbt[n]);
+		_putchar(str_hbt[n]);
 		n += 1;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
