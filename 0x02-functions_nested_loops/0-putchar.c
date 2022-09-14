@@ -1,12 +1,11 @@
-#include <main.h>
-
-
+#include <stdio.h>
 
 /**
- *main - program that prints _putchar.
+ *main - program that prints putchar.
  *
  * Return: int
  */
+
 int main(void)
 {
 	int n = 0;
