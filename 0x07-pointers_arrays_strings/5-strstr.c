@@ -1,15 +1,7 @@
-<<<<<<< HEAD
 #include "main.h"
 
 /**
  * _strstr - locates a substring
-=======
-#include "main.h
-
-
-/**
- * *_strstr - locates a substring
->>>>>>> 71d28505bb85d5021e178d435b486c4f0f992da0
  * @haystack: string to search in
  * @needle: substring to look for
  *
