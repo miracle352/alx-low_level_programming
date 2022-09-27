@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strchr - locates a character in a string
- * @s: string to search 
+ * _strspn - length of a prefix substring
  * @accept: accept string
+ * @s: string
  *Return: Always 0
  */
 unsigned int _strspn(char *s, char *accept)
