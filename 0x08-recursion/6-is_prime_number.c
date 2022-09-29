@@ -1,12 +1,12 @@
-#include"main.h"
+#include "main.h"
 
 int finding_prime(int n, int i);
 
 /**
-* is_prime_number - says if an integer is a prime number or not
-* @n: number to evaluate
-*
-* Return: 1 if n is a prime number, 0 if no
+ * is_prime_number - says if an integer is a prime number or not
+ * @n: number to evaluate
+ *
+ * Return: 1 if n is a prime number, 0 if not
 */
 int is_prime_number(int n)
 {
@@ -14,18 +14,18 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	else 
+	else
 	{
 		return (finding_prime(n, n - 1));
 	}
 }
 
 /**
-* finding_prime - calculates if a number is prime recursively
-* @n: number to evaluate
-* @i: iterator
-*
-* Return: 1 if n is prime, 0 if not
+ * finding_prime - calculates if a number is prime recursively
+ * @n: number to evaluate
+ * @i: iterator
+ *
+ * Return: 1 if n is prime, 0 if not
 */
 int finding_prime(int n, int i)
 {
@@ -37,7 +37,7 @@ int finding_prime(int n, int i)
 	{
 		return (0);
 	}
-	else 
+	else
 	{
 		return (finding_prime(n, i - 1));
 	}
