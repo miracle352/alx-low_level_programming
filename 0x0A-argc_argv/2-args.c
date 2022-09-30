@@ -2,17 +2,17 @@
 #include <stdio.h>
 
 /**
- * main - printing all arguments it recieves
+ * main - printing all arguments it receives
  * @argc: Argument count
  * @argv: Argument vector
- * Return: 0
+ * Return: Always 0
  *
  */
 int main(int argc, char *argv[])
 {
 	int n;
 
-	for (n = 0; n < argv; n++)
+	for (n = 0; n < argc; n++)
 	{
 		printf("%s\n", argv[n]);
 	}
