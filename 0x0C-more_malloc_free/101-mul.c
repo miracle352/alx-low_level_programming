@@ -7,7 +7,5 @@
 * @s: string to be evaluated
 *
 * Return: 0 if a non-digit is found, 1 otherwise
-*/
-int is_digit(char *s)
 {
   
